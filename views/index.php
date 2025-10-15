@@ -1,4 +1,4 @@
-// UI FOR MAIN LAND PAGE.
+<!--UI FOR MAIN LAND PAGE. -->
 
 <!DOCTYPE html>
 <html lang="en">
