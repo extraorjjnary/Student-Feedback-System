@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px; /* keep the card a reasonable width */
+  box-sizing: border-box;
+  overflow-wrap: break-word; /* break long words */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1976d2;
+}
+
+.info {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  display: block;
+  margin-top: 5px;
+  line-height: 1.5;
+  word-wrap: break-word; /* ensures long feedback text wraps */
+}
+
+/* Optional: scrollable feedback if extremely long */
+.value.feedback {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(25, 118, 210, 0.05);
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.back {
+  text-decoration: none;
+  background-color: #1976d2;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.back:hover {
+  background-color: #0d47a1;
+}
+
+.edit {
+  text-decoration: none;
+  background-color: rgb(8, 144, 20);
+  color: white;
+  border-radius: 8px;
+  padding: 8px 15px;
+  text-align: right;
+}
